@@ -1,13 +1,4 @@
 # Python-study
-python study(251023)
-
-n, x = map(int, input().split())
-a = list(map(int, input().split()))
-
-for i in a:
-    if i < x:
-        print(i)
-
 a = int(input()) #총 영수증 금액
 b = int(input()) #물건 갯수
 
